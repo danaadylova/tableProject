@@ -22,6 +22,7 @@
 		81E904131923D35A009E27BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81E903F21923D35A009E27BA /* UIKit.framework */; };
 		81E9041B1923D35A009E27BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81E904191923D35A009E27BA /* InfoPlist.strings */; };
 		81E9041D1923D35A009E27BA /* tableProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E9041C1923D35A009E27BA /* tableProjectTests.m */; };
+		81E904281923D425009E27BA /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E904271923D425009E27BA /* FirstTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		81E904181923D35A009E27BA /* tableProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tableProjectTests-Info.plist"; sourceTree = "<group>"; };
 		81E9041A1923D35A009E27BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		81E9041C1923D35A009E27BA /* tableProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableProjectTests.m; sourceTree = "<group>"; };
+		81E904261923D425009E27BA /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		81E904271923D425009E27BA /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				81E904031923D35A009E27BA /* Main_iPad.storyboard */,
 				81E904061923D35A009E27BA /* ViewController.h */,
 				81E904071923D35A009E27BA /* ViewController.m */,
+				81E904261923D425009E27BA /* FirstTableViewController.h */,
+				81E904271923D425009E27BA /* FirstTableViewController.m */,
 				81E904091923D35A009E27BA /* Images.xcassets */,
 				81E903F51923D35A009E27BA /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81E904281923D425009E27BA /* FirstTableViewController.m in Sources */,
 				81E904081923D35A009E27BA /* ViewController.m in Sources */,
 				81E903FF1923D35A009E27BA /* AppDelegate.m in Sources */,
 				81E903FB1923D35A009E27BA /* main.m in Sources */,
