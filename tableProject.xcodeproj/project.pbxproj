@@ -23,6 +23,7 @@
 		81E9041B1923D35A009E27BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 81E904191923D35A009E27BA /* InfoPlist.strings */; };
 		81E9041D1923D35A009E27BA /* tableProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E9041C1923D35A009E27BA /* tableProjectTests.m */; };
 		81E904281923D425009E27BA /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E904271923D425009E27BA /* FirstTableViewController.m */; };
+		81E904311923DAB3009E27BA /* CustomTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 81E904301923DAB3009E27BA /* CustomTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		81E9041C1923D35A009E27BA /* tableProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tableProjectTests.m; sourceTree = "<group>"; };
 		81E904261923D425009E27BA /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
 		81E904271923D425009E27BA /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		81E9042F1923DAB3009E27BA /* CustomTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableViewController.h; sourceTree = "<group>"; };
+		81E904301923DAB3009E27BA /* CustomTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				81E904071923D35A009E27BA /* ViewController.m */,
 				81E904261923D425009E27BA /* FirstTableViewController.h */,
 				81E904271923D425009E27BA /* FirstTableViewController.m */,
+				81E9042F1923DAB3009E27BA /* CustomTableViewController.h */,
+				81E904301923DAB3009E27BA /* CustomTableViewController.m */,
 				81E904091923D35A009E27BA /* Images.xcassets */,
 				81E903F51923D35A009E27BA /* Supporting Files */,
 			);
@@ -261,6 +266,7 @@
 				81E904281923D425009E27BA /* FirstTableViewController.m in Sources */,
 				81E904081923D35A009E27BA /* ViewController.m in Sources */,
 				81E903FF1923D35A009E27BA /* AppDelegate.m in Sources */,
+				81E904311923DAB3009E27BA /* CustomTableViewController.m in Sources */,
 				81E903FB1923D35A009E27BA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
